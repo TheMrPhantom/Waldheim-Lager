@@ -1,0 +1,17 @@
+.MenuButton {
+    background-color: #586e75; /* Green */
+    border: none;
+    color: #eee8d5;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 8px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.2s;
+}
+.MenuButton:hover {
+    box-shadow: 0 5px 5px 0 rgba(182, 182, 182, 0.548),0 10px 10px 0 rgba(94, 184, 196, 0.507);
+}
