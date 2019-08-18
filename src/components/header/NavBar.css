@@ -15,3 +15,49 @@
 .MenuButton:hover {
     box-shadow: 0 5px 5px 0 rgba(182, 182, 182, 0.548),0 10px 10px 0 rgba(94, 184, 196, 0.507);
 }
+.MenuSearch{
+    padding: 12px 32px;
+    font-size: 18px;
+    margin: 4px 8px;
+    color: #eee8d5;
+    background-color: #586e75;
+    border: none;
+    width: 70%;
+}
+#wh-logo{
+    color:#eee8d5;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.nav-grid-container {
+    display: grid;
+    grid-template-areas:
+      'hButtons hButtons hButtons hButtons hButtons whLogo'
+      'hSearch  hSearch  hSearch  hSearch  hSearch  whLogo';
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: #073642;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.548),3px 3px 3px 3px rgba(10, 10, 10, 0.507);
+}
+
+.hButtons{
+    grid-area: hButtons;
+}
+
+.hSearch{
+    grid-area: hSearch;
+}
+
+.whLogo{
+    grid-area: whLogo;
+}
+
+#loginButton{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    display: block;
+}
