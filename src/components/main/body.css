@@ -6,12 +6,12 @@
     vertical-align:middle;
     padding: 10px;
     padding-right: 0px;
-    grid-area: mainContent;
+    grid-area: hmainContent;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.548),3px 3px 3px 3px rgba(10, 10, 10, 0.507);
 }
 
 #sidebar{
-    grid-area: sidebar;
+    grid-area: hsidebar;
     font-size: 20px;
     margin-left: 8px;
     background-color:var(--base01);
@@ -24,6 +24,25 @@
     margin-top: 8px;
     display: grid;
     grid-template-areas:
+      'hmainContent hmainContent hmainContent hmainContent hmainContent hsidebar'
       'mainContent mainContent mainContent mainContent mainContent sidebar';
     grid-gap: 10px;
+    row-gap: 0px;
+}
+
+.mainContent{
+    grid-area: mainContent;
+    background-color: var(--base02);
+    padding: 10px;
+    padding-right: 0px;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.548),3px 3px 3px 3px rgba(10, 0, 10, 0.507);
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: var(--base02);
+    margin-left: 8px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.548),3px 3px 3px 3px rgba(10, 10, 10, 0.507);
+
 }
