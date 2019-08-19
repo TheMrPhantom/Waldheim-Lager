@@ -1,0 +1,29 @@
+#searchHeader{
+    width: 100%;
+    font-size: 20px;
+    background-color:var(--base01);
+    color: var(--yellow);
+    vertical-align:middle;
+    padding: 10px;
+    padding-right: 0px;
+    grid-area: mainContent;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.548),3px 3px 3px 3px rgba(10, 10, 10, 0.507);
+}
+
+#sidebar{
+    grid-area: sidebar;
+    font-size: 20px;
+    margin-left: 8px;
+    background-color:var(--base01);
+    color: var(--yellow);
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.548),3px 3px 3px 3px rgba(10, 10, 10, 0.507);
+}
+
+.mainBody{
+    margin-top: 8px;
+    display: grid;
+    grid-template-areas:
+      'mainContent mainContent mainContent mainContent mainContent sidebar';
+    grid-gap: 10px;
+}
