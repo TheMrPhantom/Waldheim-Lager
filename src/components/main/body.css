@@ -46,3 +46,29 @@
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.548),3px 3px 3px 3px rgba(10, 10, 10, 0.507);
 
 }
+
+.searchItem{
+    background-color: var(--base1);
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.searchItemText{
+    grid-template-areas:'leftA rightA';
+    grid-template-columns: 95% 5%;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.leftA{
+    grid-area: leftA;
+    font-size:25px;
+    padding: 8px;
+    color: var(--base2);
+}
+
+.rightA{
+    grid-area: rightA;
+    font-size:40px;
+    color:var(--base2);
+}

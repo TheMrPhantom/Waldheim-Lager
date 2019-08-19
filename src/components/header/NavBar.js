@@ -11,7 +11,6 @@ class NavBar extends Component{
             <NavBarButtons />
             <NavBarLogin />       
             <NavBarSearch />
-            
         </div>
         )
     }
